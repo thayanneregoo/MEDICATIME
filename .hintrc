@@ -3,7 +3,6 @@
     "development"
   ],
   "hints": {
-    "axe/name-role-value": "off",
-    "button-type": "off"
+    "highest-available-document-mode": "off"
   }
 }
