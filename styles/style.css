@@ -14,6 +14,7 @@ body {
     background: #BEE7E8;
     font-family: 'Fira Code', monospace;
     font-family: 'Inter', sans-serif;
+    height: 100vh;
 
 }
 
@@ -25,14 +26,18 @@ a:hover {
     display: flex;
     letter-spacing: 4px;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-between;
+    padding-left: 3dvb;
+    width: 30dvh;
+    font-size: larger;
+
 
 }
 
 
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     font-family: 'Inter', sans-serif;
     background: #1F999E;
@@ -42,6 +47,7 @@ nav {
 .nav-list {
     list-style: none;
     display: flex;
+    padding-right: 3dvh;
 }
 
 .nav-list li {
@@ -61,6 +67,19 @@ nav {
     height: 2px;
     background: #ffff;
     margin: 8px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'Inter', sans-serif;
+    background: #1F999E;
+    height: 17vh;
+    list-style: none;
+    padding-left: 2dvh;
+    
 }
 @media (max-width: 999px)  {
     body{
@@ -89,7 +108,7 @@ nav {
  
 }
 .nav-list.active{
-    transform::translateX(0);
+    transform:translateX(0);
 }
 
 .cards{
