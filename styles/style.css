@@ -15,6 +15,7 @@ body {
     font-family: 'Fira Code', monospace;
     font-family: 'Inter', sans-serif;
     height: 100vh;
+    text-align: center;
 
 }
 
@@ -57,6 +58,13 @@ nav {
 }
 
 /* inicio css do carrossel*/
+.container-input-radio{
+    display: flex;
+    justify-content:center;
+    flex-direction: column-;
+
+}
+
 .slides-list{
     /*remove os estilos da lista*/
     list-style-type: none;
@@ -71,6 +79,10 @@ nav {
     display: grid;
     grid-auto-flow: column;
     grid-auto-columns: 1fr;
+    
+  }
+  .slides-list img{
+    width: 100vw;
   }
 
   .slide-controller:nth-child(1):checked ~ .slide-show .slides-list{--selected-item: 0;}
@@ -114,9 +126,9 @@ nav {
 
 .cards{
     .img{
-        width: 20dvw;
-        height: 20dvh;
-    }
+        width: 60vw;
+        height: 6100vh;
+    } 
 }
 
 .footer{
