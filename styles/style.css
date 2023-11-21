@@ -124,6 +124,8 @@ nav {
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    
 }
 
 .cards img{
@@ -137,12 +139,14 @@ nav {
 }
 .conteudo-card h3{
     margin-top: 0;
+    padding-left: 1rem;
 }
 .conteudo-card p{
     font-size: 14px;
      margin: 10px;
     display: flex;
     align-items: center;
+    text-align: justify;
 }
 
 .conteudo{
