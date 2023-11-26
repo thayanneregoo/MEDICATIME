@@ -1,21 +1,19 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body{
+.conteudo{
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
-    min-height: 100vh;
-    background: #262626;
+    }
+.conteudo h1{
+    color: #1F999E;
+    padding-bottom: 2rem;
 }
+
 
 .mapBox{
     position: relative;
-    width: 600px;
-    height: 500px;
+    width: 90vw;
+    height: 70vh;
     background: #fff;
 }
 
