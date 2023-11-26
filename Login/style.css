@@ -21,7 +21,11 @@ body {
 
 form {
     width: 400px;
+<<<<<<< HEAD
     height: 550px;
+=======
+    height: 450px;
+>>>>>>> 253a76a532f7d10f943ff662a034510f887218db
     box-sizing: border-box;
     border-radius: 5mm;
     padding: 40px 30px;
@@ -81,7 +85,11 @@ form {
     top: 0;
     left: 0;
     color: #1F999E(255, 255, 255);
+<<<<<<< HEAD
     font-size: 20px;
+=======
+    font-size: 13px;
+>>>>>>> 253a76a532f7d10f943ff662a034510f887218db
     font-weight: 500;
     font-family: poppins;
     opacity: 0;
@@ -159,7 +167,11 @@ form {
 .text {
     width: 100%;
     font-family: poppins;
+<<<<<<< HEAD
     font-size: 16px;
+=======
+    font-size: 13px;
+>>>>>>> 253a76a532f7d10f943ff662a034510f887218db
     text-align: center;
     color: #1F999E(240, 240, 240);
 }
