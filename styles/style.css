@@ -139,9 +139,12 @@ nav {
     background: #1F999E;
     height: 17vh;
     list-style: none;
-    padding-left: 2dvh;
-    
+    padding-left: 7rem;    
 }
+.footer li{
+    padding-bottom: 1rem;
+}
+
 @media (max-width: 999px)  {
     body{
         overflow-x: hidden;

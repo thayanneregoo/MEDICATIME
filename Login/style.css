@@ -21,7 +21,7 @@ body {
 
 form {
     width: 400px;
-    height: 450px;
+    height: 480px;
     box-sizing: border-box;
     border-radius: 5mm;
     padding: 40px 30px;
@@ -165,7 +165,7 @@ form {
 }
 
 .text a {
-    color: #1F999E;
+    color: #fff;
     font-weight: 600;
 }
 
