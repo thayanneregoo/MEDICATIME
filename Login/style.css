@@ -22,10 +22,14 @@ body {
 form {
     width: 400px;
 <<<<<<< HEAD
+<<<<<<< HEAD
     height: 550px;
 =======
     height: 450px;
 >>>>>>> 253a76a532f7d10f943ff662a034510f887218db
+=======
+    height: 480px;
+>>>>>>> 6e2edaf5f249367497c429c020d3182136ab95e2
     box-sizing: border-box;
     border-radius: 5mm;
     padding: 40px 30px;
@@ -177,7 +181,7 @@ form {
 }
 
 .text a {
-    color: #1F999E;
+    color: #fff;
     font-weight: 600;
 }
 
