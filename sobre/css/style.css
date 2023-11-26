@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #BEE7E8;
+    font-family: 'Fira Code', monospace;
+    font-family: 'Inter', sans-serif;
+    height: 100vh;
+    text-align: center;
+
+}
+a:hover {
+    opacity: 0.7;
+}
+header {
+    background-color: #1F999E;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+article {
+    flex: 1;
+    margin: 0 10px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1, h2 {
+    color: #00bcd4;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #1F999E;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.logo {
+    
+    display: flex;
+    letter-spacing: 4px;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 3dvb;
+    width: 20dvh;
+    font-size: larger;
+
+
+} 
+nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    background: #1F999E;
+    height: 7vh;
+    color: #f5f5f5;
+    list-style: none
+}
+
+.nav-list {
+    display: flex;
+    padding-right: 10%;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 25px;
+
+}
+@media (max-width: 999px)  {
+    body{
+        overflow-x: hidden;
+    }
+    .nav-list {
+        position: absolute;
+        top: 8vh;
+        right: 0;
+        width: 100vw;
+        height: 92vh;
+        background: aliceblue;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transform: translateX(100%);
+    }
+    .nav-list li{
+        margin-left:0;
+
+        
+    }
+    .mobile-menu{
+        display: block;
+    }
+ 
+}
+.nav-list.active{
+    transform:translateX(0);
+}
+a{
+    text-decoration: none;
+    list-style: none;
+}
+
