@@ -1,0 +1,26 @@
+.conteudo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    }
+.conteudo h1{
+    color: #1F999E;
+    padding-bottom: 2rem;
+}
+
+
+.mapBox{
+    position: relative;
+    width: 90vw;
+    height: 70vh;
+    background: #fff;
+}
+
+.mapBox iframe{
+    width: 100%;
+    height: 100%;
+}
+
+
+
