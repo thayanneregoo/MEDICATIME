@@ -13,12 +13,6 @@ body {
 a:hover {
     opacity: 0.7;
 }
-header {
-    background-color: #1F999E;
-    color: #fff;
-    text-align: center;
-    padding: 1em 0;
-}
 
 .container {
 
@@ -60,12 +54,6 @@ main{
     justify-content: center;
 }
 
-img {
-    max-width: 100%;
-    border-radius: 8px;
-    margin-bottom: 15px;
-}
-
 p {
     line-height: 1.6;
 }
@@ -79,39 +67,7 @@ footer {
     bottom: 0;
     width: 100%;
 }
-.logo {
-    
-    display: flex;
-    letter-spacing: 4px;
-    align-items: center;
-    justify-content: space-between;
-    padding-left: 3dvb;
-    width: 20dvh;
-    font-size: larger;
 
-
-} 
-nav{
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    font-family: 'Inter', sans-serif;
-    background: #1F999E;
-    height: 7vh;
-    color: #f5f5f5;
-    list-style: none
-}
-
-.nav-list {
-    display: flex;
-    padding-right: 10%;
-}
-
-.nav-list li {
-    letter-spacing: 3px;
-    margin-left: 25px;
-
-}
 @media (max-width: 999px)  {
     body{
         overflow-x: hidden;
